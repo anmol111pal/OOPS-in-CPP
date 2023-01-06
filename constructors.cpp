@@ -17,10 +17,6 @@ class Box {
             height=h;
         }
 
-    /*  Another way to define the parameterized constructor
-        Box(int l, int b, int h) : length(l), breadth(b), height(h) {}
-    */
-
         //  copy constructor
         Box(Box& obj) {
             length=obj.length;
